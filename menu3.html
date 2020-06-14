@@ -67,7 +67,7 @@
          function check() {
              if(food.length == 1) {
                  document.getElementById("vs").innerHTML = food+"이(가) 당신이 선택한 요리!";
-                 document.getElementById("food1").src = food+".jpg";
+                 document.getElementById("food1").src = food+".JPG";
                  document.getElementById("food2").style.display = "none";
                  return;
              }
@@ -120,8 +120,8 @@
                  numOfCmpt = "결승전 ";
 
              document.getElementById("vs").innerHTML = numOfCmpt + food[i] + " vs " + food[i+1];
-             document.getElementById("food1").src = food[i]+".jpg";
-             document.getElementById("food2").src = food[i+1]+".jpg";
+             document.getElementById("food1").src = food[i]+".JPG";
+             document.getElementById("food2").src = food[i+1]+".JPG";
 
              tmp = cpy;
          }
